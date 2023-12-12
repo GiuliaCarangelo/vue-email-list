@@ -32,7 +32,7 @@ createApp({
         }
     },
 
-    created() {
+    mounted() {
         this.emailsListGen();
     },
 }).mount('#app');
